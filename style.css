@@ -2,6 +2,20 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    transition: all 0.75s ease;
+}
+
+a:hover {
+    color: cyan;
+}
+
 body {
     background-color: black;
     color: white;
@@ -18,15 +32,6 @@ header {
     align-items: center;
 }
 
-.header-link {
-    text-decoration: none;
-    color: white;
-    transition: all 0.75s ease;
-}
-
-.header-link:hover {
-    color: cyan;
-}
 
 #logo {
     display: flex;
@@ -34,15 +39,32 @@ header {
     min-width: 40px;
 }
 
-.nav-bar {
+.header-nav {
     display: flex;
     gap: 2rem;
     margin-right: 4rem;
 }
 
-.nav-bar a {
+.header-nav a {
     white-space: nowrap;
     font-weight: bold;
 }
 
 
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 2rem;
+}
+
+.footer-nav {
+    display: flex;
+    gap: 3rem;
+}
+
+.social {
+    display: flex;
+    gap: 1rem;
+}

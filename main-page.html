@@ -9,14 +9,15 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <div id="wrapper">
-        <header>
+        <header id="top">
             <a href="main-page.html">
                 <img id="logo" src="images/weather logo.png" alt="logo">
             </a>
-            <nav class="nav-bar">
+            <nav class="header-nav">
                 <a class="header-link" href="main-page.html">Home</a>
                 <a class="header-link" href="/socialize.html">Socialize</a>
                 <a class="header-link" href="/weather-report.html">Weather Report</a>
@@ -26,7 +27,42 @@
         </header>
         <main></main>
         <section></section>
-        <footer></footer>
+        <footer>
+            <div class="back-to-top">
+                <a href="#top" class="scroll-to-top">
+                <i class="fa-solid fa-arrow-up"></i>
+                <span>Back to Top</span>
+                </a>
+            </div>
+            <div class="address">
+                <p>
+                    Kuşadası, Aydın, Turkey
+                </p>
+            </div>
+            <div class="copyright">
+                <p>
+                    Copyright © 2025 Weather Socializer Inc. All rights reserved.
+                </p>
+            </div>
+            <div class="footer-nav">
+                <a href="/privacy-policy.html">Privacy Policy</a>
+                <a href="/terms-of-use">Terms of Use</a>
+                <a href="/terms-and-conditions.html">Terms & Conditions</a>
+                <a href="/contact-us.html">Contact Us</a>
+            </div>
+            <div class="social">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-x-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <a href="https://www.linkedin.com/in/dogukantekin/">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+                <a href="https://github.com/Zodiacbtw">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+            </div>
+        </footer>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
