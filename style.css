@@ -6,6 +6,10 @@ html {
     scroll-behavior: smooth;
 }
 
+main, section, footer{
+    margin-top: 3rem;
+}
+
 a {
     color: white;
     text-decoration: none;
@@ -50,6 +54,26 @@ header {
     font-weight: bold;
 }
 
+.week-items {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.day {
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5rem;
+    border: 2px solid white;
+    width: 6rem;
+    aspect-ratio: 5 / 8;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+.weather-icon {
+    width: 4rem;
+}
 
 footer {
     display: flex;
