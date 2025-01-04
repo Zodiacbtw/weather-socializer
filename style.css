@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: "Work Sans", sans-serif, serif;
+}
+/*
+#wrapper {
+}
+*/
+header {
+    display: flex;
+    margin: 1rem;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.header-link {
+    text-decoration: none;
+    color: white;
+    transition: all 0.75s ease;
+}
+
+.header-link:hover {
+    color: cyan;
+}
+
+#logo {
+    display: flex;
+    width: 15%;
+    min-width: 40px;
+}
+
+.nav-bar {
+    display: flex;
+    gap: 2rem;
+    margin-right: 4rem;
+}
+
+.nav-bar a {
+    white-space: nowrap;
+    font-weight: bold;
+}
+
+
